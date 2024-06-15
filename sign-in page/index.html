@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <img src="C:\Users\lenovo\OneDrive\Desktop\Travel Diary\sign-up page\1stpageimg.png" >
+        <h2>TRAVEL DIARY</h2>
+        <div class="login-container">
+            <form action="/login" method="post">
+                <div class="input-group">
+                    <label for="Email">Email-id:</label>
+                    <input type="email" id="Email-id" name="Enter your Email-id" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="options">
+                    <label>
+                        <input type="checkbox" name="remember"> Remember Me
+                    </label>
+                    <a href="/forgot-password" class="forgot-password">Forgot Password?</a>
+                </div>
+                <button type="submit">Login</button>
+                <div class="social-login">
+                    <p> Or Login with</p>
+                    <button type="button" class="social-btn google"><i class="fab fa-google"></i> Continue with Google</button>
+                    <button type="button" class="social-btn facebook"><i class="fab fa-facebook-f"></i> Continue with Facebook</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
