@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    gap: 60px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    padding: 0 150px;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    background-color: orange;
+    z-index: 99;
+}
+
+.nav-items {
+    margin-left: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-items h4 {
+    margin: 0 15px;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.nav-items h4:hover {
+    text-decoration: underline;
+}
+
+#img1 {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    margin-right: auto;
+}
+
+#dis{
+    display: flex;
+    height: 100vh;
+}
+
+#pictures{
+    display: flex;
+    margin-top: 80px;
+    height: calc(100vh - 80px);
+    width: 50%;
+    background-color: rgb(48, 46, 46);
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#data{
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-top:80px ;
+    height: calc(100vh - 80px);
+    width: 30%;
+    background-color: rgb(48, 46, 46);
+}
+
+#bio{
+    /* display: flex; */
+    margin-top: 80px;
+    height: calc(100vh -80px);
+    width: 20%;
+    background-color: rgb(48, 46, 46);
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+#bio h2{
+    margin-top: 100px;
+    display: block;
+    margin-bottom: 40px;
+}
+#bio textarea{
+    height: 400px;
+    display: inline-block;
+    width: 90%;
+    border-radius: 20px;
+}
+
+#pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+#customFileInput {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#customFileInput:hover {
+    background-color: #0056b3;
+}
+
+#data{
+    padding-top: 50px;
+}
+#loc h2{
+    margin-bottom: 20px;
+}
+
+#country{
+    margin-top: 20px;
+}
+
+#country label{
+    margin-right: 20px;
+}
+
+#state{
+    margin-top: 20px;
+}
+
+#state label{
+    margin-right: 20px;
+}
+
+#amount{
+    margin-top: 20px;
+}
+
+#tour-guide{
+    margin-top: 20px;
+}
+
+#amount h2{
+    margin-bottom: 20px;
+}
+
+#tour-guide h2{
+    margin-bottom: 20px;
+}
+
+#data input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+}
