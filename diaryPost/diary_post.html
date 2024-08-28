@@ -8,14 +8,16 @@
 </head>
 <body>
     <div id="nav">
-        <img src="logo.jpg" alt="Logo" id="img1">
+        <img src="/images/logo.jpg" alt="Logo" id="img1">
         <div class="nav-items">
-            <h4>HOME</h4>
+            <h4><a href="/landingPage/landing_page.html">HOME</a></h4>
             <h4>TOUR PACKAGE</h4>
-            <h4>TRAVEL BLOGS</h4>
-            <h4>CONTACT</h4>
+            <h4><a href="/diaryPost/diary_post.html">TRAVEL BLOGS</a></h4>
+            <h4><a href="#footer">CONTACT</a></h4>
+            <h4><a href="/profile page/index.html">PROFILE</a></h4>
         </div>
     </div>
+
     <div id="dis">
         <div id="pictures">
             <div id="pic">
@@ -25,6 +27,12 @@
                     <label for="fileInput" id="customFileInput">Choose Files</label>
                 </div>
             </div>
+           <!-- Carousel Controls -->
+           <div id="carousel" style="display:none;">
+            <button id="prevButton">&lt;</button>
+            <img id="carouselImage" src="" alt="Selected Image">
+            <button id="nextButton">&gt;</button>
+        </div>
         </div>
 
         <div id="bio">
@@ -36,7 +44,7 @@
             <div id="loc">
                 <div id="l">
                     <h2>Location:</h2>
-                <input type="text">
+                    <input type="text">
                 </div>
                 <div id="state">
                     <h2>Select State:</h2>
@@ -51,12 +59,14 @@
                 <h2>Amount Spent:</h2>
                 <input type="text">
             </div>
-    
+
             <div id="tour-guide">
                 <h2>Tour guide Taken:</h2>
                 <input type="text">
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

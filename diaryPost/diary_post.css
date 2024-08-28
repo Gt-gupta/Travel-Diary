@@ -71,6 +71,31 @@ html, body {
     width: 30%;
     background-color: rgb(48, 46, 46);
 }
+#carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselImage {
+    width: 650px;
+    height: 500px;
+    margin: 0 10px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
 
 #bio{
     /* display: flex; */
