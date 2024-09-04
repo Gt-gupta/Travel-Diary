@@ -85,16 +85,13 @@ html,body {
     border-radius: 4px;
     
 }
-#des input[type="submit"] {
+#postButton{
+    background-color: orange;
+    margin-top: 20px;
     height: 40px;
-    width: 70px;
-    background-color: orange; 
-    margin-left: 20px;
-    margin-top: 15px;
+    width: 80px;
+    border-radius: 20px;
     font-size: 20px;
-    border-radius: 10px;
-    text-align: center;
-    justify-content: center;
 }
 
 #page2{

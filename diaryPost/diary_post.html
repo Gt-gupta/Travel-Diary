@@ -27,44 +27,50 @@
                     <label for="fileInput" id="customFileInput">Choose Files</label>
                 </div>
             </div>
-           <!-- Carousel Controls -->
-           <div id="carousel" style="display:none;">
-            <button id="prevButton">&lt;</button>
-            <img id="carouselImage" src="" alt="Selected Image">
-            <button id="nextButton">&gt;</button>
-        </div>
+            <!-- Carousel Controls -->
+            <div id="carousel" style="display:none;">
+                <button id="prevButton">&lt;</button>
+                <img id="carouselImage" src="" alt="Selected Image">
+                <button id="nextButton">&gt;</button>
+            </div>
         </div>
 
         <div id="bio">
             <h2>Experience:</h2>
-            <textarea name="" id="" cols="30" rows="10">Type here...</textarea>
+            <textarea id="experience" cols="30" rows="10"></textarea>
         </div>
 
         <div id="data">
             <div id="loc">
                 <div id="l">
                     <h2>Location:</h2>
-                    <input type="text">
+                    <input type="text" id="location">
                 </div>
                 <div id="state">
                     <h2>Select State:</h2>
-                    <input type="text">
+                    <input type="text" id="stateInput">
                 </div>
                 <div id="country">
-                    <h2>Select country:</h2>
-                    <input type="text">
+                    <h2>Select Country:</h2>
+                    <input type="text" id="countryInput">
                 </div>
             </div>
             <div id="amount">
                 <h2>Amount Spent:</h2>
-                <input type="text">
+                <input type="text" id="amountSpent">
             </div>
 
             <div id="tour-guide">
-                <h2>Tour guide Taken:</h2>
-                <input type="text">
+                <h2>Tour Guide Taken:</h2>
+                <input type="text" id="tourGuide">
             </div>
+            <!-- Post Button -->
+        <div id="postButtonContainer">
+            <button id="postButton">Post</button>
+        </div> 
         </div>
+
+        
     </div>
 
     <script src="script.js"></script>
